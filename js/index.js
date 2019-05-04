@@ -1,14 +1,10 @@
-const ham_menu = document.querySelector("#ham-menu");
-const nav_links = document.querySelector("#nav-links");
+const ham_menu = document.getElementById("ham-menu");
+const nav_links = document.getElementById("nav-links");
 
 ham_menu.addEventListener("click", event => {
     if (nav_links.style.display == "none") {
-        setDisplay("flex");
+        nav_links.style.display = "flex";
     } else {
-        setDisplay("none");
+        nav_links.style.display = "none";
     }
 });
-
-function setDisplay(val) {
-    nav_links.style.display = val;
-}
