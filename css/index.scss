@@ -13,6 +13,13 @@ body {
     font-size: 1.1em;
 }
 
+.icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.4em;
+    fill: $nav-text-color;
+}
+
 header {
     background: $nav-bg-color;
     position: absolute;
