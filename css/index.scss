@@ -1,10 +1,12 @@
 $nav-text-color: #eee;
-$nav-bg-color: #8b1e3f;
+// $nav-bg-color: #8b1e3f;
 $body-text-color: #222;
-$body-bg-color: #daedbd;
+// $body-bg-color: #daedbd;
 
 body {
-    background: $body-bg-color;
+    background: #d3cce3;
+    background: linear-gradient(to right, #e9e4f0, #d3cce3);
+
     color: $body-text-color;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
@@ -21,7 +23,9 @@ body {
 }
 
 header {
-    background: $nav-bg-color;
+    background: #000046;
+    background: linear-gradient(to left, #1cb5e0, #000046);
+
     position: absolute;
     top: 0;
     left: 0;
@@ -30,10 +34,10 @@ header {
     a {
         text-decoration: none;
         color: $nav-text-color;
-        padding: 0.25em;
+        padding: 0.25em 1em;
 
         &:hover {
-            background: darken($nav-bg-color, 2%);
+            background: rgba(0, 0, 0, 0.2);
         }
     }
 
@@ -59,8 +63,8 @@ header {
         flex-direction: column;
 
         a {
-            padding: 0.25em 0;
             margin: auto;
+            height: 1.5em;
         }
     }
 }
@@ -108,7 +112,7 @@ header {
 
             a {
                 margin: auto 0;
-                padding: 0 1em;
+                height: auto;
             }
         }
     }
