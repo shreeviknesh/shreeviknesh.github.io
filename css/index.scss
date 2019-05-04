@@ -1,19 +1,16 @@
-$nav-text-color: white;
+$nav-text-color: #eee;
 $nav-bg-color: #8b1e3f;
+$body-text-color: #222;
+$body-bg-color: #daedbd;
 
 body {
-    background: lightgoldenrodyellow;
+    background: $body-bg-color;
+    color: $body-text-color;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
     padding: 0;
     margin: 0;
     font-size: 1.1em;
-}
-
-#bars {
-    height: 1em;
-    width: 1em;
-    color: white;
 }
 
 header {
@@ -46,7 +43,7 @@ header {
     #ham-menu {
         margin: auto;
         padding-left: 15vw;
-        color: white;
+        color: $nav-text-color;
     }
 
     #nav-links {
