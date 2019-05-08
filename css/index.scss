@@ -70,7 +70,7 @@ header {
 }
 
 .main {
-    height: 100vh;
+    height: 80vh;
     padding-top: 10vh;
 }
 
@@ -93,6 +93,14 @@ header {
 
 .content {
     padding: 0.5em 1.5em;
+
+    #content-name {
+        font-size: 1.7em;
+    }
+
+    p {
+        margin: 0.4em 0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -118,6 +126,7 @@ header {
     }
 
     .main {
+        height: 100vh;
         padding: 0;
         display: grid;
         grid-template-columns: 40% auto;
