@@ -1,0 +1,35 @@
+.main {
+    padding: 5em 0;
+}
+
+.contact-tile {
+    width: 5em;
+    margin: 2em auto;
+    text-align: center;
+    padding: 0.5em;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+        // height: auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        display: grid;
+        margin: auto;
+        height: 50vh;
+        width: 50vw;
+
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contact-tile {
+        margin: auto;
+    }
+}

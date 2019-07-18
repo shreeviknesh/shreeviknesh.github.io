@@ -1,0 +1,1 @@
+.main{padding:5em 0}.contact-tile{width:5em;margin:2em auto;text-align:center;padding:0.5em}.contact-tile a{text-decoration:none;color:black}.contact-tile img{width:100%}@media (min-width: 768px){.main{display:-ms-grid;display:grid;margin:auto;height:50vh;width:50vw;-ms-grid-columns:(1fr)[4];grid-template-columns:repeat(4, 1fr)}.contact-tile{margin:auto}}
